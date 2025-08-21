@@ -1,2 +1,2 @@
-Let's play Stone Paper Scissor 
+Let's play Stone Paper Scissor, 
 Count your score!!!
