@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1f2a44, #16202b);
+    color: #f1f1f1;
+    transition: background 0.4s, color 0.4s;
+}
+
+.container {
+    width: 490px;
+    padding: 30px 40px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    transition: background 0.4s, box-shadow 0.4s;
+}
+
+
+#heading{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    background: linear-gradient(90deg, #ff416c, #ff4b2b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn {
+    padding: 12px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    background-color: #ff416c;
+}
+
+#para{
+    /* //can we add movement to it?? */
+    background: linear-gradient(90deg, #7f7577, #ff4b2b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    transition: color 0.3s;
+}
+
+#lilPara{
+    /* //can we add movement to it?? */
+    background: linear-gradient(90deg, #7f7577, #ff4b2b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    transition: color 0.3s;
+}
